@@ -33,7 +33,7 @@
   },
   {
     "ContainingType": "Billder.API.Controllers.ClienteController",
-    "Method": "CreateClient",
+    "Method": "CreateCustomer",
     "RelativePath": "api/Cliente/crear-cliente",
     "HttpMethod": "POST",
     "IsController": true,
@@ -45,6 +45,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billder.API.Controllers.ClienteController",
+    "Method": "GetCustomers",
+    "RelativePath": "api/Cliente/obtener-clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -64,6 +74,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Billder.API.Controllers.PresupuestoController",
+    "Method": "GetBudgets",
+    "RelativePath": "api/Presupuesto/obtener-presupuestos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Billder.API.Controllers.TrabajoController",
     "Method": "CreateJob",
     "RelativePath": "api/Trabajo/crear-trabajo",
@@ -77,6 +97,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billder.API.Controllers.TrabajoController",
+    "Method": "GetJobs",
+    "RelativePath": "api/Trabajo/obtener-trabajos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

@@ -15,6 +15,8 @@ namespace Billder.API.Data
         public DbSet<Presupuesto> Presupuestos { get; set; }
         public DbSet<Pago> Pagos { get; set; }
         public DbSet<Contrato> Contratos { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

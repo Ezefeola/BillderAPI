@@ -16,7 +16,8 @@ namespace Billder.API.Models.Configurations
         {
             builder.Property(p => p.Materiales).IsRequired().HasMaxLength(450);
             builder.Property(p => p.PrecioMateriales).IsRequired().HasPrecision(18,2);
-            builder.Property(p => p.ManoDeObra).IsRequired().HasPrecision(18,2);
+            builder.Property(p => p.DescripcionManoDeObra).IsRequired().HasMaxLength(500);
+            builder.Property(p => p.PrecioManoDeObra).IsRequired().HasPrecision(18,2);
             builder.Property(p => p.Total).HasPrecision(18, 2);
         }
 

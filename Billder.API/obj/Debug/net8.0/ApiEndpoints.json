@@ -30,5 +30,53 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billder.API.Controllers.ClienteController",
+    "Method": "CreateClient",
+    "RelativePath": "api/Cliente/crear-cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteRequestDto",
+        "Type": "Billder.API.DTOs.Request.ClienteRequestDTOs.ClienteRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billder.API.Controllers.PresupuestoController",
+    "Method": "CreateBudget",
+    "RelativePath": "api/Presupuesto/crear-presupuesto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "presupuestoRequestDto",
+        "Type": "Billder.API.DTOs.Request.PresupuestoRequestDTOs.PresupuestoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billder.API.Controllers.TrabajoController",
+    "Method": "CreateJob",
+    "RelativePath": "api/Trabajo/crear-trabajo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trabajoRequestDto",
+        "Type": "Billder.API.DTOs.Request.TrabajoRequestDTOs.TrabajoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

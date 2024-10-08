@@ -1,6 +1,8 @@
-﻿namespace Billder.API.Services.Interfaces
+﻿using Billder.API.Models;
+
+namespace Billder.API.Services.Interfaces
 {
-    public interface IPresupuestoService
+    public interface IPresupuestoService : IGenericService<Presupuesto>
     {
     }
 }

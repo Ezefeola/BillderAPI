@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Billder.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241008123632_Initial")]
-    partial class Initial
+    [Migration("20241008140634_Add-Migraion Initial")]
+    partial class AddMigraionInitial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -150,14 +150,19 @@ namespace Billder.API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<decimal>("ManoDeObra")
-                        .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<string>("DescripcionManoDeObra")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Materiales")
                         .IsRequired()
                         .HasMaxLength(450)
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<decimal>("PrecioManoDeObra")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("PrecioMateriales")
                         .HasPrecision(18, 2)

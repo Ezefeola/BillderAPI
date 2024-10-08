@@ -12,10 +12,10 @@ namespace Billder.API.Repositories.Classes
             
         }
 
-        //public async Task<List<Usuario>> GetAllUsersWithRelations()
-        //{
-        //    return await _dbSet.Include(x => x.!).ThenInclude(x => x.Entrada).ToListAsync();
-        //}
+        public async Task<List<Usuario>> GetAllUsersWithRelations()
+        {
+            return await _dbSet.Include(x => x.Trabajo!).ThenInclude(x => x.Cliente).ToListAsync();
+        }
 
         public async Task<Usuario> GetUserByEmail(string email)
         {
@@ -30,7 +30,7 @@ namespace Billder.API.Repositories.Classes
 
             if (recordToDelete is null) throw new Exception("El registro no se encontro");
 
-            //await _dbSet.Where(x => x.Id == id).Include(x => x.!).ThenInclude(x => x.Reventa).ExecuteDeleteAsync();
+            await _dbSet.Where(x => x.Id == id).Include(x => x.Trabajo!).ThenInclude(x => x.Cliente).ExecuteDeleteAsync();
 
             return recordToDelete;
         }

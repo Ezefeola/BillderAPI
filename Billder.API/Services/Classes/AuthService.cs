@@ -18,12 +18,12 @@ namespace Billder.API.Services.Classes
             _authRepository = authRepository;
             _tokenService = tokenService;
         }
-        //public async Task<List<Usuario>> GetAllUsersWithRelationsAsync()
-        //{
-        //    var users = await _authRepository.GetAllUsersWithRelations();
+        public async Task<List<Usuario>> GetAllUsersWithRelationsAsync()
+        {
+            var users = await _authRepository.GetAllUsersWithRelations();
 
-        //    return users;
-        //}
+            return users;
+        }
 
         public async Task<Usuario> GetUserByEmailAsync(string email)
         {
@@ -62,8 +62,6 @@ namespace Billder.API.Services.Classes
             if (passwordVerification == PasswordVerificationResult.Failed) throw new Exception("Las credenciales no son correctas");
 
             Usuario user = await _authRepository.AuthenticateUser(email, password);
-
-            //string token = _tokenService.CreateToken(user);
 
             return user;
         }

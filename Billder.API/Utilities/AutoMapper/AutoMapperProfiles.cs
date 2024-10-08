@@ -1,6 +1,12 @@
 ﻿using AutoMapper;
 using Billder.API.DTOs.Request.AuthRequestDTOs;
+using Billder.API.DTOs.Request.ClienteRequestDTOs;
+using Billder.API.DTOs.Request.PresupuestoRequestDTOs;
+using Billder.API.DTOs.Request.TrabajoRequestDTOs;
 using Billder.API.DTOs.Response.AuthResponseDTOs;
+using Billder.API.DTOs.Response.ClienteResponseDTOs;
+using Billder.API.DTOs.Response.PresupuestoResponseDTOs;
+using Billder.API.DTOs.Response.TrabajoResponseDTOs;
 using Billder.API.Models;
 
 namespace Billder.API.Utilities.AutoMapper
@@ -14,8 +20,15 @@ namespace Billder.API.Utilities.AutoMapper
 
             CreateMap<LoginRequestDto, Usuario>();
             CreateMap<Usuario, LoginResponseDto>();
-            //CreateMap<ActualizarGeneroDTO, >();
-            //CreateMap<Genero, GeneroDTO>();
+
+            CreateMap<PresupuestoRequestDto, Presupuesto>();
+            CreateMap<Presupuesto, PresupuestoResponseDto>();
+
+            CreateMap<TrabajoRequestDto, Trabajo>();
+            CreateMap<Trabajo, TrabajoResponseDto>();
+
+            CreateMap<ClienteRequestDto, Cliente>();
+            CreateMap<Cliente, ClienteResponseDto>();
         }
     }
 }

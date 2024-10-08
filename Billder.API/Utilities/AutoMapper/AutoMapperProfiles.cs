@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using Billder.API.DTOs.Request.AuthRequestDtos;
+using Billder.API.DTOs.Request.AuthRequestDTOs;
+using Billder.API.DTOs.Response.AuthResponseDTOs;
 using Billder.API.Models;
 
 namespace Billder.API.Utilities.AutoMapper
@@ -9,6 +10,10 @@ namespace Billder.API.Utilities.AutoMapper
         public AutoMapperProfiles()
         {
             CreateMap<RegisterRequestDto, Usuario>();
+            CreateMap<Usuario, RegisterResponseDto>();
+
+            CreateMap<LoginRequestDto, Usuario>();
+            CreateMap<Usuario, LoginResponseDto>();
             //CreateMap<ActualizarGeneroDTO, >();
             //CreateMap<Genero, GeneroDTO>();
         }

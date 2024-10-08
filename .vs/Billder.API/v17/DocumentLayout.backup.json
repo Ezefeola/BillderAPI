@@ -57,6 +57,10 @@
           "SelectedChildIndex": 11,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LoginRequestDto.cs",
@@ -66,8 +70,7 @@
               "RelativeToolTip": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\LoginRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:14:46.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:14:46.36Z"
             },
             {
               "$type": "Document",
@@ -79,8 +82,7 @@
               "RelativeToolTip": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\RegisterRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:11:04.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:11:04.728Z"
             },
             {
               "$type": "Document",
@@ -92,8 +94,7 @@
               "RelativeToolTip": "Billder.API\\DTOs\\Response\\AuthResponseDTOs\\RegisterResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:10:37.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:10:37.269Z"
             },
             {
               "$type": "Document",
@@ -105,12 +106,7 @@
               "RelativeToolTip": "Billder.API\\Models\\Trabajo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:04:02.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-10-08T12:04:02.397Z"
             },
             {
               "$type": "Document",
@@ -122,8 +118,7 @@
               "RelativeToolTip": "Billder.API\\Models\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:04:25.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:04:25.53Z"
             },
             {
               "$type": "Document",
@@ -135,8 +130,7 @@
               "RelativeToolTip": "Billder.API\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:01:39.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T12:01:39.94Z"
             },
             {
               "$type": "Document",
@@ -172,8 +166,7 @@
               "RelativeToolTip": "Billder.API\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:49:04.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T02:49:04.995Z"
             },
             {
               "$type": "Document",

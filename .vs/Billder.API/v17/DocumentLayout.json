@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Migrations\\20241008123632_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Billder.API\\Migrations\\20241008123632_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\models\\configurations\\trabajoconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\models\\configurations\\trabajoconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\models\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\models\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\utilities\\automapper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\utilities\\automapper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\services\\classes\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\services\\classes\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\dtos\\request\\authrequestdtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,18 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\dtos\\response\\authresponsedtos\\registerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\dtos\\response\\authresponsedtos\\registerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\models\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\models\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,39 +70,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241008123632_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Migrations\\20241008123632_Initial.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Migrations\\20241008123632_Initial.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Migrations\\20241008123632_Initial.cs",
+              "RelativeToolTip": "Billder.API\\Migrations\\20241008123632_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:36:33.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrabajoConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Configurations\\TrabajoConfigurations.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Models\\Configurations\\TrabajoConfigurations.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Configurations\\TrabajoConfigurations.cs",
+              "RelativeToolTip": "Billder.API\\Models\\Configurations\\TrabajoConfigurations.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:31:10.388Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Request\\AuthRequestDTOs\\LoginRequestDto.cs",
-              "RelativeDocumentMoniker": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\LoginRequestDto.cs",
-              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Request\\AuthRequestDTOs\\LoginRequestDto.cs",
-              "RelativeToolTip": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\LoginRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Classes\\AuthService.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Services\\Classes\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Classes\\AuthService.cs",
+              "RelativeToolTip": "Billder.API\\Services\\Classes\\AuthService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEEAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:14:46.36Z"
+              "WhenOpened": "2024-10-08T12:27:26.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Request\\AuthRequestDTOs\\RegisterRequestDto.cs",
-              "RelativeDocumentMoniker": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\RegisterRequestDto.cs",
-              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Request\\AuthRequestDTOs\\RegisterRequestDto.cs",
-              "RelativeToolTip": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\RegisterRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:11:04.728Z"
+              "WhenOpened": "2024-10-08T12:26:52.614Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "RegisterResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Response\\AuthResponseDTOs\\RegisterResponseDto.cs",
               "RelativeDocumentMoniker": "Billder.API\\DTOs\\Response\\AuthResponseDTOs\\RegisterResponseDto.cs",
@@ -98,31 +142,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Trabajo.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Trabajo.cs",
               "RelativeDocumentMoniker": "Billder.API\\Models\\Trabajo.cs",
               "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Trabajo.cs",
               "RelativeToolTip": "Billder.API\\Models\\Trabajo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:04:02.397Z"
+              "WhenOpened": "2024-10-08T12:04:02.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Billder.API\\Models\\Cliente.cs",
               "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Cliente.cs",
               "RelativeToolTip": "Billder.API\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:04:25.53Z"
+              "WhenOpened": "2024-10-08T12:04:25.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Billder.API\\Data\\ApplicationDbContext.cs",
@@ -134,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Program.cs",
               "RelativeDocumentMoniker": "Billder.API\\Program.cs",
@@ -146,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Repositories\\Interfaces\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "Billder.API\\Repositories\\Interfaces\\IAuthRepository.cs",
@@ -166,11 +212,12 @@
               "RelativeToolTip": "Billder.API\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:49:04.995Z"
+              "WhenOpened": "2024-10-08T02:49:04.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "UsuarioConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Configurations\\UsuarioConfigurations.cs",
               "RelativeDocumentMoniker": "Billder.API\\Models\\Configurations\\UsuarioConfigurations.cs",
@@ -182,16 +229,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Billder.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Billder.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T02:34:15.352Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Request\\AuthRequestDTOs\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Request\\AuthRequestDTOs\\RegisterRequestDto.cs",
+              "RelativeToolTip": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:11:04.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Request\\AuthRequestDTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Request\\AuthRequestDTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "Billder.API\\DTOs\\Request\\AuthRequestDTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:14:46.36Z"
             }
           ]
         }

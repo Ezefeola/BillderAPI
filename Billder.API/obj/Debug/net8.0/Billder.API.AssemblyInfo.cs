@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Billder.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c92d4a03b985c8ff58ea888d93302284c6db315")]
 [assembly: System.Reflection.AssemblyProductAttribute("Billder.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Billder.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

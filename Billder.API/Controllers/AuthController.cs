@@ -3,7 +3,6 @@ using Billder.API.DTOs.Request.AuthRequestDTOs;
 using Billder.API.DTOs.Response.AuthResponseDTOs;
 using Billder.API.Models;
 using Billder.API.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Billder.API.Controllers
@@ -13,11 +12,13 @@ namespace Billder.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
+        private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
 
-        public AuthController(IAuthService authService, IMapper mapper)
+        public AuthController(IAuthService authService, ITokenService tokenService, IMapper mapper)
         {
             _authService = authService;
+            _tokenService = tokenService;
             _mapper = mapper;
         }
 
@@ -55,7 +56,10 @@ namespace Billder.API.Controllers
 
                 Usuario logUser = await _authService.AuthenticateAsync(userToLogin.Email, userToLogin.Password);
 
+                string token = _tokenService.CreateToken(logUser);
                 LoginResponseDto loginResponseDto = _mapper.Map<LoginResponseDto>(logUser);
+
+                loginResponseDto.Token = token;
 
                 return Ok(loginResponseDto);
             }

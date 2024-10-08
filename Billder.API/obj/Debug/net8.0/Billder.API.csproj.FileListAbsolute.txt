@@ -136,3 +136,4 @@ C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Igrowker\Billder\Billder.AP
 C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Igrowker\Billder\Billder.API\Billder.API\obj\Debug\net8.0\Billder.API.pdb
 C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Igrowker\Billder\Billder.API\Billder.API\obj\Debug\net8.0\Billder.API.genruntimeconfig.cache
 C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Igrowker\Billder\Billder.API\Billder.API\obj\Debug\net8.0\ref\Billder.API.dll
+C:\Users\ezefe\OneDrive\Desktop\Contenedor\Proyectos\Igrowker\Billder\Billder.API\Billder.API\obj\Debug\net8.0\Billder.API.sourcelink.json

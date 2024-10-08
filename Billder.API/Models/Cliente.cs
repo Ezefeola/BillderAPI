@@ -1,6 +1,6 @@
 ﻿namespace Billder.API.Models
 {
-    public class Cliente
+    public class Cliente : BaseModel
     {
         public int UsuarioId { get; set; }
         public string Identificacion { get; set; } = null!;
@@ -16,6 +16,6 @@
         public DateTime? FechaAlta { get; set; }
 
         public Usuario? Usuario { get; set; }
-        public List<Trabajo>? Trabajos { get; set; }
+        public List<Trabajo>? Trabajo { get; set; }
     }
 }

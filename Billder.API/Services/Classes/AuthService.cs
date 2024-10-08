@@ -63,7 +63,7 @@ namespace Billder.API.Services.Classes
 
             Usuario user = await _authRepository.AuthenticateUser(email, password);
 
-            string token = _tokenService.CreateToken(user);
+            //string token = _tokenService.CreateToken(user);
 
             return user;
         }

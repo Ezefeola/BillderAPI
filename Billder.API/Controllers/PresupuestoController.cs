@@ -21,16 +21,31 @@ namespace Billder.API.Controllers
             _mapper = mapper;
         }
 
+        [HttpGet("obtener-presupuestos")]
+        public async Task<IActionResult> GetBudgets()
+        {
+            List<Presupuesto> budgets = await _presupuestoService.GetAllAsync();
+            return Ok(budgets);
+        }
+
         [HttpPost("crear-presupuesto")]
         public async Task<IActionResult> CreateBudget(PresupuestoRequestDto presupuestoRequestDto)
         {
-            Presupuesto budgetToCreate = _mapper.Map<Presupuesto>(presupuestoRequestDto);
+            try
+            {
+                Presupuesto budgetToCreate = _mapper.Map<Presupuesto>(presupuestoRequestDto);
+                budgetToCreate.Total = budgetToCreate.PrecioManoDeObra + budgetToCreate.PrecioMateriales;
+                Presupuesto createdBudget = await _presupuestoService.Create(budgetToCreate);
 
-            Presupuesto createdBudget = await _presupuestoService.Create(budgetToCreate);
+                PresupuestoResponseDto presupuestoResponseDto = _mapper.Map<PresupuestoResponseDto>(createdBudget);
 
-            PresupuestoResponseDto presupuestoResponseDto = _mapper.Map<PresupuestoResponseDto>(createdBudget);
+                return Ok(presupuestoResponseDto);
+            }
+            catch (Exception)
+            {
 
-            return Ok(presupuestoResponseDto);
+                return BadRequest("No se pudo crear el presupuesto");
+            }
         }
     }
 }

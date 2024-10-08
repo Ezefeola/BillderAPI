@@ -2,6 +2,7 @@
 using Billder.API.DTOs.Request.TrabajoRequestDTOs;
 using Billder.API.DTOs.Response.TrabajoResponseDTOs;
 using Billder.API.Models;
+using Billder.API.Services.Classes;
 using Billder.API.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,17 +23,23 @@ namespace Billder.API.Controllers
             _mapper = mapper;
         }
 
+        [HttpGet("obtener-trabajos")]
+        public async Task<IActionResult> GetJobs()
+        {
+            List<Trabajo> jobs = await _trabajoService.GetAllAsync();
+            return Ok(jobs);
+        }
+
         [HttpPost("crear-trabajo")]
         public async Task<IActionResult> CreateJob(TrabajoRequestDto trabajoRequestDto)
         {
-            //string authorizationHeader = Request.Headers["Authorization"].ToString();
-            //string userIdObtainedString = await _authService.GetUserIdByTokenAsync(authorizationHeader);
-            //int userId = int.Parse(userIdObtainedString);
+            string authorizationHeader = Request.Headers["Authorization"].ToString();
+            string userIdObtainedString = await _authService.GetUserIdByTokenAsync(authorizationHeader);
+            int userId = int.Parse(userIdObtainedString);
 
             Trabajo jobToCreate = _mapper.Map<Trabajo>(trabajoRequestDto);
-
+            jobToCreate.UsuarioId = userId;
             Trabajo createdJob = await _trabajoService.Create(jobToCreate);
-
             TrabajoResponseDto trabajoResponse = _mapper.Map<TrabajoResponseDto>(createdJob);
 
             return Ok(trabajoResponse);

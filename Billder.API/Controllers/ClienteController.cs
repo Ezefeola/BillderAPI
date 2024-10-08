@@ -22,16 +22,23 @@ namespace Billder.API.Controllers
             _mapper = mapper;
         }
 
+        [HttpGet("obtener-clientes")]
+        public async Task<IActionResult> GetCustomers()
+        {
+            List<Cliente> customers = await _clienteService.GetAllAsync();
+            return Ok(customers);
+        }
+
         [HttpPost("crear-cliente")]
-        public async Task<IActionResult> CreateClient(ClienteRequestDto clienteRequestDto)
+        public async Task<IActionResult> CreateCustomer(ClienteRequestDto clienteRequestDto)
         {
             string authorizationHeader = Request.Headers["Authorization"].ToString();
             string userIdObtainedString = await _authService.GetUserIdByTokenAsync(authorizationHeader);
             int userId = int.Parse(userIdObtainedString);
 
-            Cliente clientToCreate = _mapper.Map<Cliente>(clienteRequestDto);
-            clientToCreate.UsuarioId = userId;
-            Cliente createdClient = await _clienteService.Create(clientToCreate);
+            Cliente customerToCreate = _mapper.Map<Cliente>(clienteRequestDto);
+            customerToCreate.UsuarioId = userId;
+            Cliente createdClient = await _clienteService.Create(customerToCreate);
             ClienteResponseDto clienteResponseDto = _mapper.Map<ClienteResponseDto>(createdClient);
 
             return Ok(clienteResponseDto);

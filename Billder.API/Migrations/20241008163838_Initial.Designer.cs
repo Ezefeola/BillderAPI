@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Billder.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241008140634_Add-Migraion Initial")]
-    partial class AddMigraionInitial
+    [Migration("20241008163838_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -207,7 +207,7 @@ namespace Billder.API.Migrations
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("UsuarioId")
+                    b.Property<int>("UsuarioId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -318,7 +318,9 @@ namespace Billder.API.Migrations
 
                     b.HasOne("Billder.API.Models.Usuario", "Usuario")
                         .WithMany("Trabajo")
-                        .HasForeignKey("UsuarioId");
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Cliente");
 

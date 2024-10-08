@@ -3,6 +3,7 @@
     public class Trabajo : BaseModel
     {
         public int ClienteId { get; set; } = default!;
+        public int UsuarioId { get; set; } = default!;
         public string Description { get; set; } = default!;
         public DateTime Fecha { get; set; }
         public string Estado { get; set; } = default!;

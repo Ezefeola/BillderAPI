@@ -204,7 +204,7 @@ namespace Billder.API.Migrations
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("UsuarioId")
+                    b.Property<int>("UsuarioId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -315,7 +315,9 @@ namespace Billder.API.Migrations
 
                     b.HasOne("Billder.API.Models.Usuario", "Usuario")
                         .WithMany("Trabajo")
-                        .HasForeignKey("UsuarioId");
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Cliente");
 

@@ -1,0 +1,6 @@
+@Billder.API_HostAddress = http://localhost:5048
+
+GET {{Billder.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

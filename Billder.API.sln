@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billder.API", "Billder.API\Billder.API.csproj", "{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B189E18-CF66-44D3-AC3E-6B23C4365C15}
+	EndGlobalSection
+EndGlobal

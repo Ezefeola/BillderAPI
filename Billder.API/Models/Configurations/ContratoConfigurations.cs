@@ -21,7 +21,7 @@ namespace Billder.API.Models.Configurations
 
         protected override void ConfigurateTableName(EntityTypeBuilder<Contrato> builder)
         {
-            builder.ToTable("Contrato");
+            builder.ToTable("Contratos");
         }
     }
 }

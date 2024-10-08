@@ -12,7 +12,7 @@ namespace Billder.API.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Usuario",
+                name: "Usuarios",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -28,18 +28,17 @@ namespace Billder.API.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Usuario", x => x.Id);
+                    table.PrimaryKey("PK_Usuarios", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Cliente",
+                name: "Clientes",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UsuarioId = table.Column<int>(type: "int", nullable: false),
-                    Identificacion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NroIdentificacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Dni = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -52,11 +51,11 @@ namespace Billder.API.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cliente", x => x.Id);
+                    table.PrimaryKey("PK_Clientes", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Cliente_Usuario_UsuarioId",
+                        name: "FK_Clientes_Usuarios_UsuarioId",
                         column: x => x.UsuarioId,
-                        principalTable: "Usuario",
+                        principalTable: "Usuarios",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -77,21 +76,21 @@ namespace Billder.API.Migrations
                 {
                     table.PrimaryKey("PK_Trabajos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Trabajos_Cliente_ClienteId",
+                        name: "FK_Trabajos_Clientes_ClienteId",
                         column: x => x.ClienteId,
-                        principalTable: "Cliente",
+                        principalTable: "Clientes",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Trabajos_Usuario_UsuarioId",
+                        name: "FK_Trabajos_Usuarios_UsuarioId",
                         column: x => x.UsuarioId,
-                        principalTable: "Usuario",
+                        principalTable: "Usuarios",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Contrato",
+                name: "Contratos",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -103,9 +102,9 @@ namespace Billder.API.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Contrato", x => x.Id);
+                    table.PrimaryKey("PK_Contratos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Contrato_Trabajos_TrabajoId",
+                        name: "FK_Contratos_Trabajos_TrabajoId",
                         column: x => x.TrabajoId,
                         principalTable: "Trabajos",
                         principalColumn: "Id",
@@ -159,13 +158,13 @@ namespace Billder.API.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Cliente_UsuarioId",
-                table: "Cliente",
+                name: "IX_Clientes_UsuarioId",
+                table: "Clientes",
                 column: "UsuarioId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Contrato_TrabajoId",
-                table: "Contrato",
+                name: "IX_Contratos_TrabajoId",
+                table: "Contratos",
                 column: "TrabajoId",
                 unique: true);
 
@@ -195,7 +194,7 @@ namespace Billder.API.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Contrato");
+                name: "Contratos");
 
             migrationBuilder.DropTable(
                 name: "Pagos");
@@ -207,10 +206,10 @@ namespace Billder.API.Migrations
                 name: "Trabajos");
 
             migrationBuilder.DropTable(
-                name: "Cliente");
+                name: "Clientes");
 
             migrationBuilder.DropTable(
-                name: "Usuario");
+                name: "Usuarios");
         }
     }
 }

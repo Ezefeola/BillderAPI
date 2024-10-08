@@ -3,9 +3,8 @@
     public class ClienteResponseDto
     {
         public int UsuarioId { get; set; }
-        public string Identificacion { get; set; } = null!;
-        public string? NroIdentificacion { get; set; }
-        public string Nombre { get; set; } = null!;
+        public string Dni { get; set; } = default!;
+        public string Nombre { get; set; } = default!;
         public string? Descripcion { get; set; }
         public string? Email { get; set; }
         public string? Telefono { get; set; }
@@ -13,6 +12,6 @@
         public string? Ciudad { get; set; }
         public string? Provincia { get; set; }
         public string? Pais { get; set; }
-        public DateTime? FechaAlta { get; set; } = DateTime.Now;
+        public DateTime? FechaAlta { get; set; }
     }
 }

@@ -3,9 +3,8 @@
     public class Cliente : BaseModel
     {
         public int UsuarioId { get; set; }
-        public string Identificacion { get; set; } = null!;
-        public string? NroIdentificacion { get; set; }
-        public string Nombre { get; set; } = null!;
+        public string Dni { get; set; } = default!;
+        public string Nombre { get; set; } = default!;
         public string? Descripcion { get; set; }
         public string? Email { get; set; }
         public string? Telefono { get; set; }

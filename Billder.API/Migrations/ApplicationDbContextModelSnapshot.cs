@@ -39,21 +39,18 @@ namespace Billder.API.Migrations
                     b.Property<string>("Direccion")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Dni")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("FechaAlta")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Identificacion")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Nombre")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NroIdentificacion")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Pais")
@@ -72,7 +69,7 @@ namespace Billder.API.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Cliente");
+                    b.ToTable("Clientes");
                 });
 
             modelBuilder.Entity("Billder.API.Models.Contrato", b =>
@@ -106,7 +103,7 @@ namespace Billder.API.Migrations
                     b.HasIndex("TrabajoId")
                         .IsUnique();
 
-                    b.ToTable("Contrato", (string)null);
+                    b.ToTable("Contratos", (string)null);
                 });
 
             modelBuilder.Entity("Billder.API.Models.Pago", b =>
@@ -258,7 +255,7 @@ namespace Billder.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuario");
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("Billder.API.Models.Cliente", b =>

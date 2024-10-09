@@ -32,6 +32,14 @@ namespace Billder.API.Controllers
             return Ok(jobs);
         }
 
+        [HttpGet("obtener-job/{id:int}")]
+        public async Task<IActionResult> GetJobById(int id)
+        {
+            Trabajo job = await _trabajoService.GetByIdAsync(id);
+
+            return Ok(job);
+        }
+
         [Authorize]
         [HttpPost("crear-trabajo")]
         public async Task<IActionResult> CreateJob(TrabajoRequestDto trabajoRequestDto)

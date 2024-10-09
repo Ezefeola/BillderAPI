@@ -2,6 +2,7 @@
 using Billder.API.DTOs.Request.AuthRequestDTOs;
 using Billder.API.DTOs.Response.AuthResponseDTOs;
 using Billder.API.Models;
+using Billder.API.Services.Classes;
 using Billder.API.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -67,6 +68,20 @@ namespace Billder.API.Controllers
             {
                 return Unauthorized("Las credenciales no son válidas.");
             }
+        }
+
+        [HttpGet("obtener-informacion-usuario")]
+        public async Task<IActionResult> GetUserById()
+        {
+            string authorizationHeader = Request.Headers["Authorization"].ToString();
+            string userIdObtainedString = await _authService.GetUserIdByTokenAsync(authorizationHeader);
+            int userId = int.Parse(userIdObtainedString);
+
+            Usuario loggedInUserInfo = await _authService.GetByIdAsync(userId);
+
+            LoggedInUserInfoResponseDto loggedInUserInfoResponseDto = _mapper.Map<LoggedInUserInfoResponseDto>(loggedInUserInfo);
+
+            return Ok(loggedInUserInfoResponseDto);
         }
     }
 }

@@ -1,10 +1,7 @@
 ﻿using AutoMapper;
 using Billder.API.DTOs.Request.ClienteRequestDTOs;
-using Billder.API.DTOs.Request.PresupuestoRequestDTOs;
 using Billder.API.DTOs.Response.ClienteResponseDTOs;
-using Billder.API.DTOs.Response.PresupuestoResponseDTOs;
 using Billder.API.Models;
-using Billder.API.Services.Classes;
 using Billder.API.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +28,14 @@ namespace Billder.API.Controllers
         {
             List<Cliente> customers = await _clienteService.GetAllAsync();
             return Ok(customers);
+        }
+
+        [HttpGet("obtener-cliente/{id:int}")]
+        public async Task<IActionResult> GetCustomerById(int id)
+        {
+            Cliente customer = await _clienteService.GetByIdAsync(id);
+
+            return Ok(customer);
         }
 
         [HttpPost("crear-cliente")]

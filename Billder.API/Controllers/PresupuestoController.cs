@@ -32,6 +32,14 @@ namespace Billder.API.Controllers
             return Ok(budgets);
         }
 
+        [HttpGet("obtener-presupuesto/{id:int}")]
+        public async Task<IActionResult> GetBudgetById(int id)
+        {
+            Presupuesto budget = await _presupuestoService.GetByIdAsync(id);
+
+            return Ok(budget);
+        }
+
         [HttpPost("crear-presupuesto")]
         public async Task<IActionResult> CreateBudget(PresupuestoRequestDto presupuestoRequestDto)
         {

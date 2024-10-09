@@ -1,17 +1,18 @@
 ﻿using Billder.API.Models;
+using Billder.API.Repositories.Classes;
 using Billder.API.Repositories.Interfaces;
 using Billder.API.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 
 namespace Billder.API.Services.Classes
 {
-    public class AuthService : IAuthService
+    public class AuthService : GenericService<Usuario>, IAuthService
     {
         private readonly IPasswordHasher<Usuario> _passwordHasher;
         private readonly IAuthRepository _authRepository;
         private readonly ITokenService _tokenService;
 
-        public AuthService(IAuthRepository authRepository, ITokenService tokenService)
+        public AuthService(IAuthRepository authRepository, ITokenService tokenService) : base(authRepository)
         {
             
             _passwordHasher = new PasswordHasher<Usuario>();

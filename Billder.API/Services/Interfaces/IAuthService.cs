@@ -2,7 +2,7 @@
 
 namespace Billder.API.Services.Interfaces
 {
-    public interface IAuthService
+    public interface IAuthService : IGenericService<Usuario>
     {
         //Task<List<Usuario>> GetAllUsersWithRelationsAsync();
         Task<Usuario> DeleteUserWithRelationsAsync(int id);

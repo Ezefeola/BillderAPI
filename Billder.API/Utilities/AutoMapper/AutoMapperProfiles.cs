@@ -29,6 +29,8 @@ namespace Billder.API.Utilities.AutoMapper
 
             CreateMap<ClienteRequestDto, Cliente>();
             CreateMap<Cliente, ClienteResponseDto>();
+
+            CreateMap<Usuario, LoggedInUserInfoResponseDto>();
         }
     }
 }

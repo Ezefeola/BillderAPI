@@ -4,6 +4,7 @@ using Billder.API.DTOs.Response.TrabajoResponseDTOs;
 using Billder.API.Models;
 using Billder.API.Services.Classes;
 using Billder.API.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Billder.API.Controllers
@@ -23,6 +24,7 @@ namespace Billder.API.Controllers
             _mapper = mapper;
         }
 
+        [Authorize]
         [HttpGet("obtener-trabajos")]
         public async Task<IActionResult> GetJobs()
         {
@@ -30,6 +32,7 @@ namespace Billder.API.Controllers
             return Ok(jobs);
         }
 
+        [Authorize]
         [HttpPost("crear-trabajo")]
         public async Task<IActionResult> CreateJob(TrabajoRequestDto trabajoRequestDto)
         {
@@ -41,6 +44,26 @@ namespace Billder.API.Controllers
             jobToCreate.UsuarioId = userId;
             Trabajo createdJob = await _trabajoService.Create(jobToCreate);
             TrabajoResponseDto trabajoResponse = _mapper.Map<TrabajoResponseDto>(createdJob);
+
+            return Ok(trabajoResponse);
+        }
+
+        [Authorize]
+        [HttpPut("actualizar-trabajo/{id:int}")]
+        public async Task<IActionResult> UpdateJob(int id, TrabajoRequestDto trabajoRequestDto)
+        {
+            string authorizationHeader = Request.Headers["Authorization"].ToString();
+            string userIdObtainedString = await _authService.GetUserIdByTokenAsync(authorizationHeader);
+            int userId = int.Parse(userIdObtainedString);
+
+            Trabajo existingJob = await _trabajoService.GetByIdAsync(id);
+
+            if (existingJob is null) return BadRequest("El trabajo que desea actualizar no existe.");
+
+            _mapper.Map(trabajoRequestDto, existingJob);
+            Trabajo updatedJob = await _trabajoService.Update(existingJob.Id, existingJob);
+
+            TrabajoResponseDto trabajoResponse = _mapper.Map<TrabajoResponseDto>(updatedJob);
 
             return Ok(trabajoResponse);
         }

@@ -2,7 +2,6 @@
 {
     public class ClienteRequestDto
     {
-        public int UsuarioId { get; set; }
         public string Dni { get; set; } = default!;
         public string Nombre { get; set; } = default!;
         public string? Descripcion { get; set; }

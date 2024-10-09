@@ -33,6 +33,27 @@
   },
   {
     "ContainingType": "Billder.API.Controllers.ClienteController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/Cliente/actualizar-cliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "clienteRequestDto",
+        "Type": "Billder.API.DTOs.Request.ClienteRequestDTOs.ClienteRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billder.API.Controllers.ClienteController",
     "Method": "CreateCustomer",
     "RelativePath": "api/Cliente/crear-cliente",
     "HttpMethod": "POST",
@@ -59,6 +80,27 @@
   },
   {
     "ContainingType": "Billder.API.Controllers.PresupuestoController",
+    "Method": "UpdateBudget",
+    "RelativePath": "api/Presupuesto/actualizar-presupuesto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "presupuestoRequestDto",
+        "Type": "Billder.API.DTOs.Request.PresupuestoRequestDTOs.PresupuestoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billder.API.Controllers.PresupuestoController",
     "Method": "CreateBudget",
     "RelativePath": "api/Presupuesto/crear-presupuesto",
     "HttpMethod": "POST",
@@ -81,6 +123,27 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billder.API.Controllers.TrabajoController",
+    "Method": "UpdateJob",
+    "RelativePath": "api/Trabajo/actualizar-trabajo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "trabajoRequestDto",
+        "Type": "Billder.API.DTOs.Request.TrabajoRequestDTOs.TrabajoRequestDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

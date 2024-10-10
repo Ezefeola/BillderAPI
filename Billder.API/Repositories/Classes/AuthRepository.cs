@@ -43,5 +43,19 @@ namespace Billder.API.Repositories.Classes
 
             return userToAuthenticate;
         }
+
+        public async Task<bool> VerifyEmailExists(string email)
+        {
+            var userCredentialsExist = await _dbSet.AnyAsync(u => u.Email == email);
+
+            return userCredentialsExist;
+        }
+
+        public async Task<bool> VerifyDniExists(string dni)
+        {
+            var userDniExist = await _dbSet.AnyAsync(u => u.DNI == dni);
+
+            return userDniExist;
+        }
     }
 }

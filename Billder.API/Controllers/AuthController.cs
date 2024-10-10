@@ -32,6 +32,12 @@ namespace Billder.API.Controllers
             {
                 Usuario userToRegister = _mapper.Map<Usuario>(registerRequestDto);
 
+                bool emailExists = await _authService.VerifyEmailExistsAsync(userToRegister.Email);
+                if (emailExists) return BadRequest("Este email ya se encuentra registrado, intente con otro");
+
+                bool dniExists = await _authService.VerifyDniExistsAsync(userToRegister.DNI);
+                if (dniExists) return BadRequest("El dni ya se encuentra registrado");
+
                 Usuario registeredUser = await _authService.RegisterUserAsync(userToRegister);
 
                 if (registeredUser is null) BadRequest("El usuario es nulo " + registeredUser);

@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\utilities\\automapper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\utilities\\automapper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\services\\classes\\presupuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\services\\classes\\presupuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\repositories\\interfaces\\ipresupuestorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\repositories\\interfaces\\ipresupuestorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\services\\classes\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\services\\classes\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\controllers\\trabajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\controllers\\trabajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\services\\interfaces\\ipresupuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\services\\interfaces\\ipresupuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\controllers\\presupuestocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\controllers\\presupuestocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\repositories\\classes\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\repositories\\classes\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\repositories\\classes\\presupuestorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\repositories\\classes\\presupuestorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\controllers\\trabajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\controllers\\trabajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,101 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AutoMapperProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
-              "RelativeDocumentMoniker": "Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
-              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
-              "RelativeToolTip": "Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T12:34:33.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Billder.API\\Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Billder.API\\Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T12:28:12.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Classes\\AuthService.cs",
-              "RelativeDocumentMoniker": "Billder.API\\Services\\Classes\\AuthService.cs",
-              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Classes\\AuthService.cs",
-              "RelativeToolTip": "Billder.API\\Services\\Classes\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABtAAAAAAAAAA==",
+              "Title": "IPresupuestoService.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Interfaces\\IPresupuestoService.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Services\\Interfaces\\IPresupuestoService.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Interfaces\\IPresupuestoService.cs",
+              "RelativeToolTip": "Billder.API\\Services\\Interfaces\\IPresupuestoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T12:27:36.679Z",
+              "WhenOpened": "2024-10-10T14:12:13.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PresupuestoService.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Classes\\PresupuestoService.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Services\\Classes\\PresupuestoService.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Services\\Classes\\PresupuestoService.cs",
+              "RelativeToolTip": "Billder.API\\Services\\Classes\\PresupuestoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:11:40.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Billder.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Billder.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAwwFIAAAAAAAAAAAAAAA==",
+              "Title": "IPresupuestoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Repositories\\Interfaces\\IPresupuestoRepository.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Repositories\\Interfaces\\IPresupuestoRepository.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Repositories\\Interfaces\\IPresupuestoRepository.cs",
+              "RelativeToolTip": "Billder.API\\Repositories\\Interfaces\\IPresupuestoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T12:25:09.173Z",
+              "WhenOpened": "2024-10-10T14:11:19.934Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Billder.API\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Billder.API\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAA5AAAAAAAAAA==",
+              "Title": "PresupuestoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Repositories\\Classes\\PresupuestoRepository.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Repositories\\Classes\\PresupuestoRepository.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Repositories\\Classes\\PresupuestoRepository.cs",
+              "RelativeToolTip": "Billder.API\\Repositories\\Classes\\PresupuestoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T02:03:59.19Z",
+              "WhenOpened": "2024-10-10T14:09:46.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "PresupuestoController.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\PresupuestoController.cs",
               "RelativeDocumentMoniker": "Billder.API\\Controllers\\PresupuestoController.cs",
               "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\PresupuestoController.cs",
               "RelativeToolTip": "Billder.API\\Controllers\\PresupuestoController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T02:00:36.971Z",
+              "WhenOpened": "2024-10-10T14:09:04.431Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Repositories\\Classes\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Billder.API\\Repositories\\Classes\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Repositories\\Classes\\GenericRepository.cs",
-              "RelativeToolTip": "Billder.API\\Repositories\\Classes\\GenericRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:15:34.947Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -146,9 +121,35 @@
               "RelativeDocumentMoniker": "Billder.API\\Controllers\\TrabajoController.cs",
               "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\TrabajoController.cs",
               "RelativeToolTip": "Billder.API\\Controllers\\TrabajoController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:15:30.664Z",
+              "WhenOpened": "2024-10-10T14:06:09.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Billder.API\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:06:08.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Billder.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Billder.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:06:07.537Z",
               "EditorCaption": ""
             }
           ]

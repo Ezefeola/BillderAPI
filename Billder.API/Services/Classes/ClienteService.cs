@@ -12,5 +12,10 @@ namespace Billder.API.Services.Classes
         {
             _clienteRepository = clienteRepository;
         }
+
+        public async Task<List<Cliente>> GetAllUserCustomersAsync(int userId)
+        {
+            return await _clienteRepository.GetAllUserCustomers(userId);
+        }
     }
 }

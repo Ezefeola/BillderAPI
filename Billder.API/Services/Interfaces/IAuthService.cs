@@ -10,5 +10,7 @@ namespace Billder.API.Services.Interfaces
         Task<Usuario> AuthenticateAsync(string email, string password);
         Task<Usuario> RegisterUserAsync(Usuario usuario);
         Task<string> GetUserIdByTokenAsync(string token);
+        Task<bool> VerifyEmailExistsAsync(string email);
+        Task<bool> VerifyDniExistsAsync(string dni);
     }
 }

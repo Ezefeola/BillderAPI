@@ -4,5 +4,6 @@ namespace Billder.API.Services.Interfaces
 {
     public interface IPresupuestoService : IGenericService<Presupuesto>
     {
+        Task<List<Presupuesto>> GetAlljobBudgetsAsync(int jobId);
     }
 }

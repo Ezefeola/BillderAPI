@@ -164,7 +164,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "budgetId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -207,7 +213,7 @@
   {
     "ContainingType": "Billder.API.Controllers.TrabajoController",
     "Method": "GetJobById",
-    "RelativePath": "api/Trabajo/obtener-job/{id}",
+    "RelativePath": "api/Trabajo/obtener-trabajo/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -227,7 +233,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]

@@ -8,5 +8,7 @@ namespace Billder.API.Repositories.Interfaces
         Task<Usuario> DeleteUserWithRelations(int id);
         Task<Usuario> GetUserByEmail(string email);
         Task<Usuario> AuthenticateUser(string email, string password);
+        Task<bool> VerifyEmailExists(string email);
+        Task<bool> VerifyDniExists(string dni);
     }
 }

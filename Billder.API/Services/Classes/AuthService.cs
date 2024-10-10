@@ -80,5 +80,15 @@ namespace Billder.API.Services.Classes
 
             return decodedToken;
         }
+
+        public async Task<bool> VerifyDniExistsAsync(string dni)
+        {
+            return await _authRepository.VerifyDniExists(dni);
+        }
+
+        public async Task<bool> VerifyEmailExistsAsync(string email)
+        {
+            return await _authRepository.VerifyEmailExists(email);
+        }
     }
 }

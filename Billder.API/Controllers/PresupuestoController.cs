@@ -25,13 +25,15 @@ namespace Billder.API.Controllers
             _mapper = mapper;
         }
 
+        [Authorize]
         [HttpGet("obtener-presupuestos")]
-        public async Task<IActionResult> GetBudgets()
+        public async Task<IActionResult> GetBudgets(int budgetId)
         {
-            List<Presupuesto> budgets = await _presupuestoService.GetAllAsync();
+            List<Presupuesto> budgets = await _presupuestoService.GetAlljobBudgetsAsync(budgetId);
             return Ok(budgets);
         }
 
+        [Authorize]
         [HttpGet("obtener-presupuesto/{id:int}")]
         public async Task<IActionResult> GetBudgetById(int id)
         {
@@ -40,6 +42,7 @@ namespace Billder.API.Controllers
             return Ok(budget);
         }
 
+        [Authorize]
         [HttpPost("crear-presupuesto")]
         public async Task<IActionResult> CreateBudget(PresupuestoRequestDto presupuestoRequestDto)
         {

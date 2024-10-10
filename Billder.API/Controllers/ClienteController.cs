@@ -23,13 +23,19 @@ namespace Billder.API.Controllers
             _mapper = mapper;
         }
 
+        [Authorize]
         [HttpGet("obtener-clientes")]
         public async Task<IActionResult> GetCustomers()
         {
-            List<Cliente> customers = await _clienteService.GetAllAsync();
+            string authorizationHeader = Request.Headers["Authorization"].ToString();
+            string userIdObtainedString = await _authService.GetUserIdByTokenAsync(authorizationHeader);
+            int userId = int.Parse(userIdObtainedString);
+
+            List<Cliente> customers = await _clienteService.GetAllUserCustomersAsync(userId);
             return Ok(customers);
         }
 
+        [Authorize]
         [HttpGet("obtener-cliente/{id:int}")]
         public async Task<IActionResult> GetCustomerById(int id)
         {
@@ -38,6 +44,7 @@ namespace Billder.API.Controllers
             return Ok(customer);
         }
 
+        [Authorize]
         [HttpPost("crear-cliente")]
         public async Task<IActionResult> CreateCustomer(ClienteRequestDto clienteRequestDto)
         {

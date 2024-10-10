@@ -26,13 +26,17 @@ namespace Billder.API.Controllers
 
         [Authorize]
         [HttpGet("obtener-trabajos")]
-        public async Task<IActionResult> GetJobs()
+        public async Task<IActionResult> GetJobs(int customerId)
         {
-            List<Trabajo> jobs = await _trabajoService.GetAllAsync();
+
+            if (customerId is 0) return BadRequest("No se encontraron trabajos ya que el cliente no existe.");
+
+            List<Trabajo> jobs = await _trabajoService.GetAllCustomerJobsAsync(customerId);
             return Ok(jobs);
         }
 
-        [HttpGet("obtener-job/{id:int}")]
+        [Authorize]
+        [HttpGet("obtener-trabajo/{id:int}")]
         public async Task<IActionResult> GetJobById(int id)
         {
             Trabajo job = await _trabajoService.GetByIdAsync(id);

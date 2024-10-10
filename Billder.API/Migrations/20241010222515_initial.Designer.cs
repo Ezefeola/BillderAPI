@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Billder.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241008235026_Initial")]
-    partial class Initial
+    [Migration("20241010222515_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -107,6 +107,36 @@ namespace Billder.API.Migrations
                         .IsUnique();
 
                     b.ToTable("Contratos", (string)null);
+                });
+
+            modelBuilder.Entity("Billder.API.Models.Gasto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<decimal>("Precio")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("PresupuestoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PresupuestoId");
+
+                    b.ToTable("Gastos", (string)null);
                 });
 
             modelBuilder.Entity("Billder.API.Models.Pago", b =>
@@ -283,6 +313,17 @@ namespace Billder.API.Migrations
                     b.Navigation("Trabajo");
                 });
 
+            modelBuilder.Entity("Billder.API.Models.Gasto", b =>
+                {
+                    b.HasOne("Billder.API.Models.Presupuesto", "Presupuesto")
+                        .WithMany("Gastos")
+                        .HasForeignKey("PresupuestoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Presupuesto");
+                });
+
             modelBuilder.Entity("Billder.API.Models.Pago", b =>
                 {
                     b.HasOne("Billder.API.Models.Trabajo", "Trabajo")
@@ -327,6 +368,11 @@ namespace Billder.API.Migrations
             modelBuilder.Entity("Billder.API.Models.Cliente", b =>
                 {
                     b.Navigation("Trabajo");
+                });
+
+            modelBuilder.Entity("Billder.API.Models.Presupuesto", b =>
+                {
+                    b.Navigation("Gastos");
                 });
 
             modelBuilder.Entity("Billder.API.Models.Trabajo", b =>

@@ -10,5 +10,6 @@
         public decimal Total { get; set; }
 
         public Trabajo? Trabajo { get; set; }
+        public  List<Gasto>? Gastos { get; set; }
     }
 }

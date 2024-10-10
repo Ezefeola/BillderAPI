@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Billder.API.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -157,6 +157,28 @@ namespace Billder.API.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Gastos",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    PresupuestoId = table.Column<int>(type: "int", nullable: false),
+                    Precio = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
+                    Cantidad = table.Column<int>(type: "int", nullable: false),
+                    Nombre = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Gastos", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Gastos_Presupuestos_PresupuestoId",
+                        column: x => x.PresupuestoId,
+                        principalTable: "Presupuestos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Clientes_UsuarioId",
                 table: "Clientes",
@@ -167,6 +189,11 @@ namespace Billder.API.Migrations
                 table: "Contratos",
                 column: "TrabajoId",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Gastos_PresupuestoId",
+                table: "Gastos",
+                column: "PresupuestoId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Pagos_TrabajoId",
@@ -195,6 +222,9 @@ namespace Billder.API.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Contratos");
+
+            migrationBuilder.DropTable(
+                name: "Gastos");
 
             migrationBuilder.DropTable(
                 name: "Pagos");

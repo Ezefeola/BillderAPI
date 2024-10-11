@@ -102,6 +102,7 @@ builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<IPresupuestoRepository, PresupuestoRepository>();
 builder.Services.AddScoped<ITrabajoRepository, TrabajoRepository>();
+builder.Services.AddScoped<IGastosRepository, GastosRepository>();
 
 #endregion Services Area
 

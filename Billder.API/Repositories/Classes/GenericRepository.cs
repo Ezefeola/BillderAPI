@@ -33,7 +33,7 @@ namespace Billder.API.Repositories.Classes
             return recordDb;
         }
 
-        public async Task<T> Create(T model)
+        public virtual async Task<T> Create(T model)
         {
             _dbSet.Add(model);
             await _dbContext.SaveChangesAsync();

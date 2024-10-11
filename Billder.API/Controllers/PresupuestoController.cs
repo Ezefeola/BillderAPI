@@ -49,19 +49,56 @@ namespace Billder.API.Controllers
             try
             {
                 Presupuesto budgetToCreate = _mapper.Map<Presupuesto>(presupuestoRequestDto);
-                budgetToCreate.Total = budgetToCreate.PrecioManoDeObra + budgetToCreate.PrecioMateriales;
+
+                List<Gasto> gastosToCreate = _mapper.Map<List<Gasto>>(presupuestoRequestDto.Gastos);
+
+                decimal precioTotal = gastosToCreate.Sum(gasto => gasto.Precio * gasto.Cantidad);
+                budgetToCreate.Total = precioTotal;
+
+                budgetToCreate.Gastos = gastosToCreate;
+
                 Presupuesto createdBudget = await _presupuestoService.Create(budgetToCreate);
 
                 PresupuestoResponseDto presupuestoResponseDto = _mapper.Map<PresupuestoResponseDto>(createdBudget);
 
                 return Ok(presupuestoResponseDto);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                return BadRequest("No se pudo crear el presupuesto");
+                return BadRequest("No se pudo crear el presupuesto" + ex);
             }
         }
+
+        //[Authorize]
+        //[HttpPost("crear-gastos")]
+        //public async Task<IActionResult> CreateExpense(List<GastoRequestDto> gastoRequestDto, int id)
+        //{
+        //    try
+        //    {
+        //        Presupuesto budget = await _presupuestoService.GetByIdAsync(id);
+
+        //        List<Gasto> gastosToCreate = _mapper.Map<List<Gasto>>(gastoRequestDto);
+
+        //        decimal precio = 0;
+        //        foreach (var item in gastosToCreate)
+        //        {
+        //            precio += item.Precio * item.Cantidad;
+        //        }
+        //        budget.Total += precio;
+
+        //        gastosToCreate.Select(x => x.Id = id);
+        //        await _presupuestoService.CreateGastosAsync(gastosToCreate);
+
+        //        PresupuestoResponseDto presupuestoResponseDto = _mapper.Map<PresupuestoResponseDto>(budget);
+
+        //        return Ok(presupuestoResponseDto);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return BadRequest("No se pudo crear el presupuesto" + ex);
+        //    }
+        //}
+
 
         [Authorize]
         [HttpPut("actualizar-presupuesto/{id:int}")]

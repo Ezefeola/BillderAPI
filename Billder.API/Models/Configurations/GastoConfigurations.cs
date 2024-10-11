@@ -16,6 +16,8 @@ namespace Billder.API.Models.Configurations
             builder.Property(x => x.Nombre).IsRequired().HasMaxLength(100);
             builder.Property(x => x.Precio).IsRequired().HasPrecision(18,2);
             builder.Property(x => x.Cantidad).IsRequired();
+
+            builder.Ignore(x => x.Presupuesto);
         }
 
         protected override void ConfigurateTableName(EntityTypeBuilder<Gasto> builder)

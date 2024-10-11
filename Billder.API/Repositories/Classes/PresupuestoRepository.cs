@@ -7,7 +7,9 @@ namespace Billder.API.Repositories.Classes
 {
     public class PresupuestoRepository : GenericRepository<Presupuesto>, IPresupuestoRepository
     {
-        public PresupuestoRepository(ApplicationDbContext dbContext) : base(dbContext) { }
+        public PresupuestoRepository(ApplicationDbContext dbContext) : base(dbContext) 
+        {
+        }
 
         public async Task<List<Presupuesto>> GetAlljobBudgets(int jobId)
         {

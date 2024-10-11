@@ -4275,19 +4275,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicom\\.nuget\\packages\\": {}
+    "C:\\Users\\ezefe\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicom\\Desktop\\Billder-BackEnd-Eze\\Billder.API\\Billder.API.csproj",
+      "projectUniqueName": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Billder.API.csproj",
       "projectName": "Billder.API",
-      "projectPath": "C:\\Users\\nicom\\Desktop\\Billder-BackEnd-Eze\\Billder.API\\Billder.API.csproj",
-      "packagesPath": "C:\\Users\\nicom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicom\\Desktop\\Billder-BackEnd-Eze\\Billder.API\\obj\\",
+      "projectPath": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Billder.API.csproj",
+      "packagesPath": "C:\\Users\\ezefe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\nicom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ezefe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4295,6 +4303,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -4365,7 +4374,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

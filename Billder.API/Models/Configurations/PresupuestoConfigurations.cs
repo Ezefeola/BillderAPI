@@ -10,14 +10,11 @@ namespace Billder.API.Models.Configurations
             builder.HasKey(p => p.Id);
 
             builder.HasOne(p => p.Trabajo).WithOne(p => p.Presupuesto).HasForeignKey<Presupuesto>(p => p.TrabajoId);
+            builder.HasMany(p => p.Gastos).WithOne(p => p.Presupuesto).HasForeignKey(p => p.PresupuestoId);
         }
 
         protected override void ConfigurateProperties(EntityTypeBuilder<Presupuesto> builder)
         {
-            builder.Property(p => p.Materiales).IsRequired().HasMaxLength(450);
-            builder.Property(p => p.PrecioMateriales).IsRequired().HasPrecision(18,2);
-            builder.Property(p => p.DescripcionManoDeObra).IsRequired().HasMaxLength(500);
-            builder.Property(p => p.PrecioManoDeObra).IsRequired().HasPrecision(18,2);
             builder.Property(p => p.Total).HasPrecision(18, 2);
         }
 

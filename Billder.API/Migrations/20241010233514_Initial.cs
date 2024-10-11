@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Billder.API.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -139,11 +139,7 @@ namespace Billder.API.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Materiales = table.Column<string>(type: "nvarchar(450)", maxLength: 450, nullable: false),
                     TrabajoId = table.Column<int>(type: "int", nullable: false),
-                    DescripcionManoDeObra = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
-                    PrecioManoDeObra = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
-                    PrecioMateriales = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
                     Total = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false)
                 },
                 constraints: table =>

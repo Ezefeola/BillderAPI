@@ -89,5 +89,23 @@ namespace Billder.API.Controllers
 
             return Ok(loggedInUserInfoResponseDto);
         }
+
+        [HttpPut("modificar-informacion-usuario")]
+        public async Task<IActionResult> ModifyUserInformation(ModifyUserInfoRequestDto modifyUserInfoRequestDto)
+        {
+            string authorizationHeader = Request.Headers["Authorization"].ToString();
+            string userIdObtainedString = await _authService.GetUserIdByTokenAsync(authorizationHeader);
+            int userId = int.Parse(userIdObtainedString);
+
+            Usuario loggedInUserInfo = await _authService.GetByIdAsync(userId);
+
+            _mapper.Map(loggedInUserInfo, modifyUserInfoRequestDto);
+
+            await _authService.Update(loggedInUserInfo.Id, loggedInUserInfo);
+
+            LoggedInUserInfoResponseDto loggedInUserInfoResponseDto = _mapper.Map<LoggedInUserInfoResponseDto>(loggedInUserInfo);
+
+            return Ok(loggedInUserInfoResponseDto);
+        }
     }
 }

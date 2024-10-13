@@ -9,7 +9,7 @@ namespace Billder.API.Models.Configurations
         {
             builder.HasKey(p => p.Id);
 
-            builder.HasOne(p => p.Trabajo).WithOne(p => p.Presupuesto).HasForeignKey<Presupuesto>(p => p.TrabajoId);
+            builder.HasOne(p => p.Trabajo).WithMany(p => p.Presupuesto).HasForeignKey(p => p.TrabajoId);
             builder.HasMany(p => p.Gastos).WithOne(p => p.Presupuesto).HasForeignKey(p => p.PresupuestoId);
         }
 

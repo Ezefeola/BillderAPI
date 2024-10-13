@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\controllers\\presupuestocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\dtos\\response\\presupuestoresponsedtos\\presupuestoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\dtos\\response\\presupuestoresponsedtos\\presupuestoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|c:\\users\\ezefe\\onedrive\\desktop\\contenedor\\proyectos\\igrowker\\billder\\billder.api\\billder.api\\utilities\\automapper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AE90E21-BF63-4AAD-B0C7-EF48C28CE13D}|Billder.API\\Billder.API.csproj|solutionrelative:billder.api\\utilities\\automapper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +38,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PresupuestoResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Response\\PresupuestoResponseDTOs\\PresupuestoResponseDto.cs",
+              "RelativeDocumentMoniker": "Billder.API\\DTOs\\Response\\PresupuestoResponseDTOs\\PresupuestoResponseDto.cs",
+              "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\DTOs\\Response\\PresupuestoResponseDTOs\\PresupuestoResponseDto.cs",
+              "RelativeToolTip": "Billder.API\\DTOs\\Response\\PresupuestoResponseDTOs\\PresupuestoResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T00:48:29.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AutoMapperProfiles.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
               "RelativeDocumentMoniker": "Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
@@ -46,8 +66,7 @@
               "RelativeToolTip": "Billder.API\\Utilities\\AutoMapper\\AutoMapperProfiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:59:06.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T23:59:06.339Z"
             },
             {
               "$type": "Document",
@@ -57,14 +76,14 @@
               "RelativeDocumentMoniker": "Billder.API\\Controllers\\PresupuestoController.cs",
               "ToolTip": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Controllers\\PresupuestoController.cs",
               "RelativeToolTip": "Billder.API\\Controllers\\PresupuestoController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowD8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwDsAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T23:50:42.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Trabajo.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Trabajo.cs",
               "RelativeDocumentMoniker": "Billder.API\\Models\\Trabajo.cs",
@@ -72,12 +91,11 @@
               "RelativeToolTip": "Billder.API\\Models\\Trabajo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:49:40.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T23:49:40.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PresupuestoConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Configurations\\PresupuestoConfigurations.cs",
               "RelativeDocumentMoniker": "Billder.API\\Models\\Configurations\\PresupuestoConfigurations.cs",
@@ -85,16 +103,11 @@
               "RelativeToolTip": "Billder.API\\Models\\Configurations\\PresupuestoConfigurations.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:48:49.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-10-10T23:48:49.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Presupuesto.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Presupuesto.cs",
               "RelativeDocumentMoniker": "Billder.API\\Models\\Presupuesto.cs",
@@ -102,12 +115,11 @@
               "RelativeToolTip": "Billder.API\\Models\\Presupuesto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:48:28.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T23:48:28.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Gasto.cs",
               "DocumentMoniker": "C:\\Users\\ezefe\\OneDrive\\Desktop\\Contenedor\\Proyectos\\Igrowker\\Billder\\Billder.API\\Billder.API\\Models\\Gasto.cs",
               "RelativeDocumentMoniker": "Billder.API\\Models\\Gasto.cs",
@@ -115,8 +127,7 @@
               "RelativeToolTip": "Billder.API\\Models\\Gasto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:48:26.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T23:48:26.774Z"
             }
           ]
         }

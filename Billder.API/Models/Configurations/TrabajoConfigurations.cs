@@ -10,7 +10,7 @@ namespace Billder.API.Models.Configurations
             builder.HasKey(t => t.Id);
 
             builder.HasMany(t => t.Pago).WithOne(t => t.Trabajo).HasForeignKey(t => t.TrabajoId);
-            builder.HasOne(t => t.Presupuesto).WithOne(t => t.Trabajo).HasForeignKey<Presupuesto>(t => t.TrabajoId);
+            builder.HasMany(t => t.Presupuesto).WithOne(t => t.Trabajo).HasForeignKey(t => t.TrabajoId);
             builder.HasOne(t => t.Contrato).WithOne(t => t.Trabajo).HasForeignKey<Contrato>(t => t.TrabajoId);
             builder.HasOne(t => t.Cliente).WithMany(t => t.Trabajo).HasForeignKey(t => t.ClienteId).OnDelete(DeleteBehavior.Cascade);
             builder.HasOne(t => t.Usuario).WithMany(t => t.Trabajo).HasForeignKey(t => t.UsuarioId).OnDelete(DeleteBehavior.Restrict);

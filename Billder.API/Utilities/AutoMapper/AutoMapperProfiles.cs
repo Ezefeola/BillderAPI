@@ -16,6 +16,7 @@ namespace Billder.API.Utilities.AutoMapper
         public AutoMapperProfiles()
         {
             CreateMap<RegisterRequestDto, Usuario>();
+            CreateMap<ModifyUserInfoRequestDto, Usuario>();
             CreateMap<Usuario, RegisterResponseDto>();
 
             CreateMap<LoginRequestDto, Usuario>();
